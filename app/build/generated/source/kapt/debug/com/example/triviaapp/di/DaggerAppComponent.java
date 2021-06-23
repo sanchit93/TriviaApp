@@ -60,11 +60,11 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Provider<TriviaApp> applicationProvider;
 
-  private Provider<Context> provideContext$app_debugProvider;
+  private Provider<Context> provideContext$trivia_1_0_debugProvider;
 
   private Provider<ErrorHandlerImpl> errorHandlerImplProvider;
 
-  private Provider<ErrorHandler> providesErrorHandler$app_debugProvider;
+  private Provider<ErrorHandler> providesErrorHandler$trivia_1_0_debugProvider;
 
   private Provider<AppDatabase> provideAppDatabaseProvider;
 
@@ -143,10 +143,10 @@ public final class DaggerAppComponent implements AppComponent {
       }
     };
     this.applicationProvider = InstanceFactory.create(applicationParam);
-    this.provideContext$app_debugProvider = ContextModule_ProvideContext$app_debugFactory.create(applicationProvider);
-    this.errorHandlerImplProvider = ErrorHandlerImpl_Factory.create(provideContext$app_debugProvider);
-    this.providesErrorHandler$app_debugProvider = DoubleCheck.provider(ErrorModule_ProvidesErrorHandler$app_debugFactory.create(errorHandlerImplProvider));
-    this.provideAppDatabaseProvider = DoubleCheck.provider(AppModule_ProvideAppDatabaseFactory.create(provideContext$app_debugProvider));
+    this.provideContext$trivia_1_0_debugProvider = ContextModule_ProvideContext$trivia_1_0_debugFactory.create(applicationProvider);
+    this.errorHandlerImplProvider = ErrorHandlerImpl_Factory.create(provideContext$trivia_1_0_debugProvider);
+    this.providesErrorHandler$trivia_1_0_debugProvider = DoubleCheck.provider(ErrorModule_ProvidesErrorHandler$trivia_1_0_debugFactory.create(errorHandlerImplProvider));
+    this.provideAppDatabaseProvider = DoubleCheck.provider(AppModule_ProvideAppDatabaseFactory.create(provideContext$trivia_1_0_debugProvider));
     this.provideUserDaoProvider = DoubleCheck.provider(AppModule_ProvideUserDaoFactory.create(provideAppDatabaseProvider));
     this.databaseRepositoryImplProvider = DatabaseRepositoryImpl_Factory.create(provideUserDaoProvider);
     this.mainViewModelProvider = MainViewModel_Factory.create(databaseRepositoryImplProvider);
@@ -200,7 +200,7 @@ public final class DaggerAppComponent implements AppComponent {
     }
 
     private MainActivity injectMainActivity(MainActivity instance) {
-      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       DaggerBaseActivity_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
       DaggerBaseActivity_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       return instance;
@@ -227,7 +227,7 @@ public final class DaggerAppComponent implements AppComponent {
     }
 
     private SummaryActivity injectSummaryActivity(SummaryActivity instance) {
-      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       DaggerBaseActivity_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
       DaggerBaseActivity_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       return instance;
@@ -254,7 +254,7 @@ public final class DaggerAppComponent implements AppComponent {
     }
 
     private HistoryActivity injectHistoryActivity(HistoryActivity instance) {
-      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseActivity_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       DaggerBaseActivity_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
       DaggerBaseActivity_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       return instance;
@@ -302,7 +302,7 @@ public final class DaggerAppComponent implements AppComponent {
     private UserNameFragment injectUserNameFragment(UserNameFragment instance) {
       DaggerFragment_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       BaseFragment_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
-      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       return instance;
     }
   }
@@ -329,7 +329,7 @@ public final class DaggerAppComponent implements AppComponent {
     private GameFragment1 injectGameFragment1(GameFragment1 instance) {
       DaggerFragment_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       BaseFragment_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
-      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       return instance;
     }
   }
@@ -356,7 +356,7 @@ public final class DaggerAppComponent implements AppComponent {
     private GameFragment2 injectGameFragment2(GameFragment2 instance) {
       DaggerFragment_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       BaseFragment_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
-      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());
+      BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$trivia_1_0_debugProvider.get());
       return instance;
     }
   }

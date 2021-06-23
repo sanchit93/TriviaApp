@@ -1,63 +1,67 @@
+com/example/triviaapp/databinding/ItemSummaryBinding.java
+ com.example.triviaapp.databinding.ItemSummaryBinding
+com/example/triviaapp/databinding/ActivitySummaryBinding.java
+ com.example.triviaapp.databinding.ActivitySummaryBinding
+com/example/triviaapp/databinding/FragmentGame2Binding.java
+ com.example.triviaapp.databinding.FragmentGame2Binding
+com/example/triviaapp/databinding/FragmentUserBinding.java
+ com.example.triviaapp.databinding.FragmentUserBinding
+com/example/triviaapp/databinding/FragmentGame1Binding.java
+ com.example.triviaapp.databinding.FragmentGame1Binding
+com/example/triviaapp/databinding/ItemOptionBinding.java
+ com.example.triviaapp.databinding.ItemOptionBinding
+com/example/triviaapp/databinding/ActivityMainBinding.java
+ com.example.triviaapp.databinding.ActivityMainBinding
+com/example/triviaapp/databinding/ActivityHistoryBinding.java
+ com.example.triviaapp.databinding.ActivityHistoryBinding
+com/example/triviaapp/databinding/ActivitySplashBinding.java
+ com.example.triviaapp.databinding.ActivitySplashBinding
+com/example/triviaapp/BuildConfig.java
+ com.example.triviaapp.BuildConfig
 com/example/triviaapp/di/FragmentBindingModule_GameFragment2.java
  com.example.triviaapp.di.FragmentBindingModule_GameFragment2
  com.example.triviaapp.di.FragmentBindingModule_GameFragment2$GameFragment2Subcomponent
  com.example.triviaapp.di.FragmentBindingModule_GameFragment2$GameFragment2Subcomponent$Factory
 com/example/triviaapp/di/ViewModelFactory_Factory.java
  com.example.triviaapp.di.ViewModelFactory_Factory
-com/example/triviaapp/databinding/FragmentGame2Binding.java
- com.example.triviaapp.databinding.FragmentGame2Binding
 com/example/triviaapp/di/ActivityBindingModule_MainActivity.java
  com.example.triviaapp.di.ActivityBindingModule_MainActivity
  com.example.triviaapp.di.ActivityBindingModule_MainActivity$MainActivitySubcomponent
  com.example.triviaapp.di.ActivityBindingModule_MainActivity$MainActivitySubcomponent$Factory
-com/example/triviaapp/databinding/FragmentGame1Binding.java
- com.example.triviaapp.databinding.FragmentGame1Binding
 com/example/triviaapp/di/FragmentBindingModule_UserFragment.java
  com.example.triviaapp.di.FragmentBindingModule_UserFragment
  com.example.triviaapp.di.FragmentBindingModule_UserFragment$UserNameFragmentSubcomponent
  com.example.triviaapp.di.FragmentBindingModule_UserFragment$UserNameFragmentSubcomponent$Factory
-com/example/triviaapp/databinding/ActivityMainBinding.java
- com.example.triviaapp.databinding.ActivityMainBinding
 com/example/triviaapp/di/RepositoryModule_ProvidesDatabaseRepositoryFactory.java
  com.example.triviaapp.di.RepositoryModule_ProvidesDatabaseRepositoryFactory
 com/example/triviaapp/di/ActivityBindingModule_SplashActivity.java
  com.example.triviaapp.di.ActivityBindingModule_SplashActivity
  com.example.triviaapp.di.ActivityBindingModule_SplashActivity$SplashActivitySubcomponent
  com.example.triviaapp.di.ActivityBindingModule_SplashActivity$SplashActivitySubcomponent$Factory
+com/example/triviaapp/di/ContextModule_ProvideApplication$trivia_1_0_debugFactory.java
+ com.example.triviaapp.di.ContextModule_ProvideApplication$trivia_1_0_debugFactory
 com/example/triviaapp/di/ActivityBindingModule_HistoryActivity.java
  com.example.triviaapp.di.ActivityBindingModule_HistoryActivity
  com.example.triviaapp.di.ActivityBindingModule_HistoryActivity$HistoryActivitySubcomponent
  com.example.triviaapp.di.ActivityBindingModule_HistoryActivity$HistoryActivitySubcomponent$Factory
-com/example/triviaapp/databinding/FragmentUserBinding.java
- com.example.triviaapp.databinding.FragmentUserBinding
-com/example/triviaapp/databinding/ActivityHistoryBinding.java
- com.example.triviaapp.databinding.ActivityHistoryBinding
+com/example/triviaapp/di/ErrorModule_ProvidesErrorHandler$trivia_1_0_debugFactory.java
+ com.example.triviaapp.di.ErrorModule_ProvidesErrorHandler$trivia_1_0_debugFactory
 com/example/triviaapp/base/BaseFragment_MembersInjector.java
  com.example.triviaapp.base.BaseFragment_MembersInjector
-com/example/triviaapp/databinding/ActivitySummaryBinding.java
- com.example.triviaapp.databinding.ActivitySummaryBinding
 com/example/triviaapp/ui/viewmodel/SummaryViewModel_Factory.java
  com.example.triviaapp.ui.viewmodel.SummaryViewModel_Factory
-com/example/triviaapp/di/ContextModule_ProvideContext$app_debugFactory.java
- com.example.triviaapp.di.ContextModule_ProvideContext$app_debugFactory
 com/example/triviaapp/di/AppModule_ProvideUserDaoFactory.java
  com.example.triviaapp.di.AppModule_ProvideUserDaoFactory
 com/example/triviaapp/ui/viewmodel/MainViewModel_Factory.java
  com.example.triviaapp.ui.viewmodel.MainViewModel_Factory
-com/example/triviaapp/di/ContextModule_ProvideApplication$app_debugFactory.java
- com.example.triviaapp.di.ContextModule_ProvideApplication$app_debugFactory
-com/example/triviaapp/BuildConfig.java
- com.example.triviaapp.BuildConfig
+com/example/triviaapp/di/ContextModule_ProvideContext$trivia_1_0_debugFactory.java
+ com.example.triviaapp.di.ContextModule_ProvideContext$trivia_1_0_debugFactory
 com/example/triviaapp/di/AppModule_ProvideAppDatabaseFactory.java
  com.example.triviaapp.di.AppModule_ProvideAppDatabaseFactory
 com/example/triviaapp/base/BaseActivity_MembersInjector.java
  com.example.triviaapp.base.BaseActivity_MembersInjector
-com/example/triviaapp/di/ErrorModule_ProvidesErrorHandler$app_debugFactory.java
- com.example.triviaapp.di.ErrorModule_ProvidesErrorHandler$app_debugFactory
 com/example/triviaapp/room/DatabaseBuilder_Factory.java
  com.example.triviaapp.room.DatabaseBuilder_Factory
-com/example/triviaapp/databinding/ActivitySplashBinding.java
- com.example.triviaapp.databinding.ActivitySplashBinding
 com/example/triviaapp/room/AppDatabase_Impl.java
  com.example.triviaapp.room.AppDatabase_Impl
  com.example.triviaapp.room.AppDatabase_Impl$1
@@ -87,8 +91,6 @@ com/example/triviaapp/di/DaggerAppComponent.java
  com.example.triviaapp.di.DaggerAppComponent$UserNameFragmentSubcomponentImpl
 com/example/triviaapp/repo/DatabaseRepositoryImpl_Factory.java
  com.example.triviaapp.repo.DatabaseRepositoryImpl_Factory
-com/example/triviaapp/databinding/ItemOptionBinding.java
- com.example.triviaapp.databinding.ItemOptionBinding
 com/example/triviaapp/di/FragmentBindingModule_GameFragment1.java
  com.example.triviaapp.di.FragmentBindingModule_GameFragment1
  com.example.triviaapp.di.FragmentBindingModule_GameFragment1$GameFragment1Subcomponent
@@ -105,8 +107,6 @@ com/example/triviaapp/room/UserDao_Impl.java
  com.example.triviaapp.room.UserDao_Impl$7
  com.example.triviaapp.room.UserDao_Impl$8
  com.example.triviaapp.room.UserDao_Impl$9
-com/example/triviaapp/databinding/ItemSummaryBinding.java
- com.example.triviaapp.databinding.ItemSummaryBinding
 com/example/triviaapp/di/ErrorHandlerImpl_Factory.java
  com.example.triviaapp.di.ErrorHandlerImpl_Factory
 com/example/triviaapp/di/ActivityBindingModule_SummaryActivity.java

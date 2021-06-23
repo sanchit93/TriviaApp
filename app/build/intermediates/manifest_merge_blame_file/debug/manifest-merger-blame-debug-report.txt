@@ -11,7 +11,7 @@
 9-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:5:5-38:19
+11-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:5:5-39:19
 12        android:name="com.example.triviaapp.TriviaApp"
 12-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:6:9-34
 13        android:allowBackup="true"
@@ -19,8 +19,8 @@
 14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 14-->[androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:18-86
 15        android:debuggable="true"
-16        android:icon="@null"
-16-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:8:9-29
+16        android:icon="@mipmap/ic_launcher_round"
+16-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:8:9-49
 17        android:label="@string/app_name"
 17-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:9:9-41
 18        android:requestLegacyExternalStorage="true"
@@ -33,52 +33,52 @@
 22        android:theme="@style/Theme.TriviaApp" >
 22-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:9-47
 23        <activity
-23-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:9-21:20
+23-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:9-22:20
 24            android:name="com.example.triviaapp.ui.splash.SplashActivity"
-24-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:19-59
+24-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:13-53
 25            android:theme="@style/Theme.AppCompat.NoActionBar" >
-25-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:13-63
+25-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:16:13-63
 26            <intent-filter>
-26-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:16:13-20:29
+26-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:17-69
-27-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:25-66
+27-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:18:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:19:17-77
-29-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:19:27-74
+29-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:27-74
 30            </intent-filter>
 31        </activity>
 32        <activity
-32-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:22:9-26:59
+32-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:23:9-27:59
 33            android:name="com.example.triviaapp.ui.HistoryActivity"
-33-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:23:13-47
+33-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:24:13-47
 34            android:launchMode="singleTop"
-34-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:24:13-43
+34-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:25:13-43
 35            android:screenOrientation="portrait"
-35-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:25:13-49
+35-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:26:13-49
 36            android:windowSoftInputMode="adjustNothing" />
-36-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:26:13-56
+36-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:27:13-56
 37        <activity
-37-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:27:9-31:59
+37-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:28:9-32:59
 38            android:name="com.example.triviaapp.ui.SummaryActivity"
-38-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:28:13-47
+38-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:29:13-47
 39            android:launchMode="singleTop"
-39-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:29:13-43
+39-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:30:13-43
 40            android:screenOrientation="portrait"
-40-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:30:13-49
+40-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:31:13-49
 41            android:windowSoftInputMode="adjustNothing" />
-41-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:31:13-56
+41-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:32:13-56
 42        <activity
-42-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:32:9-37:20
+42-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:33:9-38:20
 43            android:name="com.example.triviaapp.ui.MainActivity"
-43-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:33:13-44
+43-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:34:13-44
 44            android:launchMode="singleTop"
-44-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:34:13-43
+44-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:35:13-43
 45            android:screenOrientation="portrait"
-45-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:35:13-49
+45-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:36:13-49
 46            android:windowSoftInputMode="adjustPan" >
-46-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:36:13-52
+46-->/Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:37:13-52
 47        </activity>
 48
 49        <meta-data

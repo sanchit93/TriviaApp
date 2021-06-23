@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.lisawray.groupie:groupie-kotlin-android-extensions:2.9.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lisawray.groupie/groupie-kotlin-android-extensions/2.9.0/1df212698f200fb8a29d8d3903f650d423fa2068/groupie-kotlin-android-extensions-2.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lisawray.groupie/groupie-kotlin-android-extensions/2.9.0/772faf60da792f44159e458a3e56bedfc726ef8f/groupie-kotlin-android-extensions-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

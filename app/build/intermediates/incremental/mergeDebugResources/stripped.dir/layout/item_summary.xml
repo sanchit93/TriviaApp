@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/background_card_lightest"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkest"
+        tools:text="Game: 15March 2020"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkest"
+        tools:text="Name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAnswerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark"
+        android:text="Here are the answers selected:"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvQuest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkest"
+        android:text="Who is the best cricketer in the world?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAns1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="Ans msdhoni"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvQuest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkest"
+        android:text="What are the colours in the national flag?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvAns2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="Ans"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

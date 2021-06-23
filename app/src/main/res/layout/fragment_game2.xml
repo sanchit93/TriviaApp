@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.GameFragment2">
+
+    <TextView
+        android:id="@+id/tvQuest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="What are the colours in the national flag?"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Options"
+            android:textColor="@color/darkest"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvSelectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_card_lightest"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="4dp"
+            android:text="Select All"
+            android:textColor="@color/darkest"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGame2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_option" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Next" />
+
+
+</LinearLayout>

@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.lisawray.groupie:groupie-kotlin-android-extensions:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52f375c13cb1a5c997345237c61d336d/jetified-room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.dagger:dagger-android-support:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52cf7ee51d1f103ebc81f1e947e4e2c0/jetified-dagger-android-support-2.35.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d495059b9db56765b4cc0f329df24c03/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/57a73c8ccc953c4948ee37d98bc8b3dc/jetified-dagger-android-2.35.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.lisawray.groupie:groupie:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/ea2d7b65e99437f2d607b4487fa249e7/jetified-groupie-2.9.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d5252371330b4d85320289af911f854e/jetified-groupie-viewbinding-2.9.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.permissions-dispatcher:permissionsdispatcher:4.8.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3db6a4790ca5d6291b5a24f4e70a718d/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f641c38244d449d9fab7c15ca55f240a/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9be5127cda9d9942f2c816100b092f2a/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0f53799c002cd930dc69335db8088899/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/53b83f9928ce18e9c5388c2cda6d2fea/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:5:5-36:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d495059b9db56765b4cc0f329df24c03/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d495059b9db56765b4cc0f329df24c03/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.lisawray.groupie:groupie:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/ea2d7b65e99437f2d607b4487fa249e7/jetified-groupie-2.9.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.lisawray.groupie:groupie:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/ea2d7b65e99437f2d607b4487fa249e7/jetified-groupie-2.9.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d5252371330b4d85320289af911f854e/jetified-groupie-viewbinding-2.9.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d5252371330b4d85320289af911f854e/jetified-groupie-viewbinding-2.9.0/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:9:9-29
+	android:allowBackup
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:12:9-47
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:6:9-34
+activity#com.example.triviaapp.ui.SplashActivity
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.triviaapp.ui.HistoryActivity
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:9-23:58
+	android:screenOrientation
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:22:13-49
+	android:launchMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:21:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:19-53
+activity#com.example.triviaapp.ui.SummaryActivity
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:24:9-28:59
+	android:screenOrientation
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:27:13-49
+	android:launchMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:26:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:25:13-47
+activity#com.example.triviaapp.ui.MainActivity
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:29:9-35:20
+	android:screenOrientation
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:32:13-49
+	android:launchMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:31:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:30:13-44
+uses-sdk
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.lisawray.groupie:groupie-kotlin-android-extensions:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lisawray.groupie:groupie-kotlin-android-extensions:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52f375c13cb1a5c997345237c61d336d/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52f375c13cb1a5c997345237c61d336d/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-android-support:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52cf7ee51d1f103ebc81f1e947e4e2c0/jetified-dagger-android-support-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/52cf7ee51d1f103ebc81f1e947e4e2c0/jetified-dagger-android-support-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/55966ac73bf0e097688f10f98cf83c97/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d495059b9db56765b4cc0f329df24c03/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d495059b9db56765b4cc0f329df24c03/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a85b037172c8ffb49a28159ec99281fd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/57a73c8ccc953c4948ee37d98bc8b3dc/jetified-dagger-android-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/57a73c8ccc953c4948ee37d98bc8b3dc/jetified-dagger-android-2.35.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.lisawray.groupie:groupie:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/ea2d7b65e99437f2d607b4487fa249e7/jetified-groupie-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lisawray.groupie:groupie:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/ea2d7b65e99437f2d607b4487fa249e7/jetified-groupie-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d5252371330b4d85320289af911f854e/jetified-groupie-viewbinding-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d5252371330b4d85320289af911f854e/jetified-groupie-viewbinding-2.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.permissions-dispatcher:permissionsdispatcher:4.8.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3db6a4790ca5d6291b5a24f4e70a718d/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.permissions-dispatcher:permissionsdispatcher:4.8.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3db6a4790ca5d6291b5a24f4e70a718d/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f292150196a7ba948bebc06096bf8cbb/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/aad590b02fc4bdc55e720b81791b9a56/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/387cfae884995c7e528511b9ed48e13d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/1a0385a816d1f1d3f6ef0b37f3e6b2cb/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6368997cef66e1bf6e12e8f5c1e1db55/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/b5276c5b75007241fde7c05b58f879fa/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bf39541628788e1f3b8412fc34e31f39/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/99a82d214e77008dd92c3d4b28c0ef0c/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/3355cb86e446a58578e9605e18b559b6/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/bfce32ca3b654fe751b00ec04bb2fad9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f641c38244d449d9fab7c15ca55f240a/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f641c38244d449d9fab7c15ca55f240a/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9be5127cda9d9942f2c816100b092f2a/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/9be5127cda9d9942f2c816100b092f2a/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/83832ac2b8cc1ba5b226e4604710fe78/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/67edcd56c619de0defb91fc37085cc6d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0f53799c002cd930dc69335db8088899/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0f53799c002cd930dc69335db8088899/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/53b83f9928ce18e9c5388c2cda6d2fea/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/53b83f9928ce18e9c5388c2cda6d2fea/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:18:3-42
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/81cc31209dff80e0e165ebded3d22bf4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/f58036267f61a087da563d3299894d2a/room-runtime-2.3.0/AndroidManifest.xml:26:13-74

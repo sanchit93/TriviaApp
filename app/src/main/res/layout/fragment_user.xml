@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UserFragment">
+
+    <TextView
+        android:id="@+id/tvNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/etName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="What is your name"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@id/tvNameLabel"
+        android:layout_alignEnd="@id/tvNameLabel"
+        android:layout_centerInParent="true"
+        android:hint="Name"
+        android:minHeight="40dp"
+        android:paddingStart="10dp"
+        tools:text="sanchit" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_alignStart="@id/tvNameLabel"
+        android:layout_alignEnd="@id/tvNameLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Continue" />
+
+</RelativeLayout>

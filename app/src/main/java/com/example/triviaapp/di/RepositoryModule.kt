@@ -1,12 +1,12 @@
 package com.example.triviaapp.di
 
-import com.example.triviaapp.DatabaseRepository
-import com.example.triviaapp.DatabaseRepositoryImpl
+import com.example.triviaapp.repo.DatabaseRepository
+import com.example.triviaapp.repo.DatabaseRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
 
-@Module(includes = [LocalModule::class])
+@Module
 class RepositoryModule {
     @Provides
     @Singleton

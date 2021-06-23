@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
-import com.example.testlocationapp.di.ViewModelFactory
+import com.example.triviaapp.di.ViewModelFactory
 import com.example.triviaapp.error.AppError
 import com.example.testlocationapp.error.ErrorHandler
 import dagger.android.support.DaggerFragment
@@ -18,8 +18,6 @@ abstract class BaseFragment : DaggerFragment() {
     @Inject
     lateinit var errorHandler: ErrorHandler
 
-//    private var loadingDialog: LoadingDialog? = null
-
     @LayoutRes
     abstract fun getLayoutResId(): Int
 
@@ -30,17 +28,6 @@ abstract class BaseFragment : DaggerFragment() {
     ): View? {
         return inflater.inflate(getLayoutResId(), container, false)
     }
-
-//    fun showLoading() {
-//        if (loadingDialog == null) {
-//            loadingDialog = LoadingDialog(requireActivity())
-//        }
-//        loadingDialog?.show()
-//    }
-//
-//    fun dismissLoading() {
-//        loadingDialog?.dismiss()
-//    }
 
     fun handleError(appError: AppError?) {
         errorHandler.handleError(appError, requireActivity())

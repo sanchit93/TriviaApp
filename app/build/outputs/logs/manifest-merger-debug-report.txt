@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.lisawray.groupie:groupie-kotlin-android-extensions:2.9.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/a27952a05672e4cf7f5b8a8ecb6374b6/jetified-groupie-kotlin-android-extensions-2.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.core:core-ktx:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/84a7591cac1b7bd031923ab49b6a2f1a/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
@@ -60,25 +60,25 @@ MERGED from [androidx.print:print:1.0.0] /Users/illuminz-android/.gradle/caches/
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/0f53799c002cd930dc69335db8088899/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.35.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/53b83f9928ce18e9c5388c2cda6d2fea/jetified-dagger-lint-aar-2.35.1/AndroidManifest.xml:16:1-19:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:5:5-36:19
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:5:5-38:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/618d19832bf17639bfd1d3b1c3ebccf7/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -97,66 +97,70 @@ MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/tr
 MERGED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/d3ed164ef8a641b08c7b0d7a861f91f4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:10:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/illuminz-android/.gradle/caches/transforms-2/files-2.1/294a33295fa491a8943a7ce80c33f3d7/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:9:9-29
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:8:9-29
 	android:allowBackup
 		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:12:9-47
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:9-47
 	android:name
 		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:6:9-34
-activity#com.example.triviaapp.ui.SplashActivity
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:9-19:20
+activity#com.example.triviaapp.ui.splash.SplashActivity
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:9-21:20
+	android:theme
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:13-63
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:13:19-52
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.example.triviaapp.ui.HistoryActivity
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:9-23:58
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:22:9-26:59
 	android:screenOrientation
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:25:13-49
 	android:launchMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:24:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:23:13-56
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:20:19-53
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:23:13-47
 activity#com.example.triviaapp.ui.SummaryActivity
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:24:9-28:59
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:27:9-31:59
 	android:screenOrientation
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:27:13-49
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:30:13-49
 	android:launchMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:26:13-43
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:29:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:25:13-47
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:28:13-47
 activity#com.example.triviaapp.ui.MainActivity
-ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:29:9-35:20
+ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:32:9-37:20
 	android:screenOrientation
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:32:13-49
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:35:13-49
 	android:launchMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:31:13-43
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:34:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:33:13-52
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:36:13-52
 	android:name
-		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:30:13-44
+		ADDED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml:33:13-44
 uses-sdk
 INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/illuminz-android/AndroidStudioProjects/TriviaApp/app/src/main/AndroidManifest.xml

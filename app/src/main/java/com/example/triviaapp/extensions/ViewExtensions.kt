@@ -14,9 +14,6 @@ fun View.visible() {
     visibility = View.VISIBLE
 }
 
-fun View.invisible() {
-    visibility = View.INVISIBLE
-}
 
 fun View.gone() {
     visibility = View.GONE
@@ -42,51 +39,3 @@ fun View.longSnackbar(@StringRes resId: Int) {
     longSnackbar(context.getString(resId))
 }
 
-fun View.showKeyboard() {
-    requestFocus()
-    val inputMethodManager =
-        context.getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
-    inputMethodManager?.showSoftInput(this, 0)
-}
-
-fun View.showKeyboard(forced: Boolean = false) {
-    requestFocus()
-    val inputMethodManager =
-        context.getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
-    if (forced) {
-        inputMethodManager?.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0)
-    } else {
-        inputMethodManager?.showSoftInput(this, 0)
-    }
-}
-
-fun View.showKeyboardImplicit() {
-    val inputMethodManager =
-        context.getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
-    inputMethodManager?.showSoftInput(this, InputMethodManager.SHOW_IMPLICIT)
-    requestFocus()
-}
-
-
-fun View.hideKeyboard() {
-    val inputMethodManager =
-        context.getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
-    inputMethodManager?.hideSoftInputFromWindow(windowToken, 0)
-}
-
-fun ViewGroup.inflate(res: Int): View {
-    return LayoutInflater.from(context).inflate(res, this, false)
-}
-
-fun View.isRtl() = ViewCompat.getLayoutDirection(this) == ViewCompat.LAYOUT_DIRECTION_RTL
-
-inline fun View.afterMeasured(crossinline f: View.() -> Unit) {
-    viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
-        override fun onGlobalLayout() {
-            if (measuredWidth > 0 && measuredHeight > 0) {
-                viewTreeObserver.removeOnGlobalLayoutListener(this)
-                f()
-            }
-        }
-    })
-}

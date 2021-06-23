@@ -1,4 +1,4 @@
-package com.core.di
+package com.example.triviaapp.di
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

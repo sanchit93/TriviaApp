@@ -17,11 +17,11 @@ object AppModule {
         return DatabaseBuilder(context).getInstance()
     }
 
-    @Singleton
-    @Provides
-    fun provideAppDatabaseRepoImpl(databaseRepository: DatabaseRepositoryImpl): DatabaseRepository {
-        return databaseRepository
-    }
+//    @Singleton
+//    @Provides
+//    fun provideAppDatabaseRepoImpl(databaseRepository: DatabaseRepositoryImpl): DatabaseRepository {
+//        return databaseRepository
+//    }
 
     @Singleton
     @Provides

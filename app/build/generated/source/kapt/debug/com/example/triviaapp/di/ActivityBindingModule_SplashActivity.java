@@ -1,6 +1,6 @@
 package com.example.triviaapp.di;
 
-import com.example.triviaapp.ui.SplashActivity;
+import com.example.triviaapp.ui.splash.SplashActivity;
 import dagger.Binds;
 import dagger.Module;
 import dagger.Subcomponent;

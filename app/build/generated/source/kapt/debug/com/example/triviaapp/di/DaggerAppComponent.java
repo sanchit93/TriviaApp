@@ -3,28 +3,26 @@ package com.example.triviaapp.di;
 
 import android.content.Context;
 import androidx.lifecycle.ViewModel;
-import com.example.testlocationapp.di.ViewModelFactory;
-import com.example.testlocationapp.di.ViewModelFactory_Factory;
 import com.example.testlocationapp.error.ErrorHandler;
-import com.example.triviaapp.DatabaseRepositoryImpl;
-import com.example.triviaapp.DatabaseRepositoryImpl_Factory;
 import com.example.triviaapp.TriviaApp;
 import com.example.triviaapp.base.BaseActivity_MembersInjector;
 import com.example.triviaapp.base.BaseFragment_MembersInjector;
 import com.example.triviaapp.base.DaggerBaseActivity_MembersInjector;
+import com.example.triviaapp.repo.DatabaseRepositoryImpl;
+import com.example.triviaapp.repo.DatabaseRepositoryImpl_Factory;
 import com.example.triviaapp.room.AppDatabase;
 import com.example.triviaapp.room.UserDao;
-import com.example.triviaapp.ui.GameFragment1;
-import com.example.triviaapp.ui.GameFragment2;
 import com.example.triviaapp.ui.HistoryActivity;
 import com.example.triviaapp.ui.MainActivity;
-import com.example.triviaapp.ui.MainViewModel;
-import com.example.triviaapp.ui.MainViewModel_Factory;
-import com.example.triviaapp.ui.SplashActivity;
 import com.example.triviaapp.ui.SummaryActivity;
-import com.example.triviaapp.ui.SummaryViewModel;
-import com.example.triviaapp.ui.SummaryViewModel_Factory;
-import com.example.triviaapp.ui.UserFragment;
+import com.example.triviaapp.ui.UserNameFragment;
+import com.example.triviaapp.ui.game.GameFragment1;
+import com.example.triviaapp.ui.game.GameFragment2;
+import com.example.triviaapp.ui.splash.SplashActivity;
+import com.example.triviaapp.ui.viewmodel.MainViewModel;
+import com.example.triviaapp.ui.viewmodel.MainViewModel_Factory;
+import com.example.triviaapp.ui.viewmodel.SummaryViewModel;
+import com.example.triviaapp.ui.viewmodel.SummaryViewModel_Factory;
 import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication_MembersInjector;
 import dagger.android.DispatchingAndroidInjector;
@@ -54,7 +52,7 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Provider<ActivityBindingModule_SplashActivity.SplashActivitySubcomponent.Factory> splashActivitySubcomponentFactoryProvider;
 
-  private Provider<FragmentBindingModule_UserFragment.UserFragmentSubcomponent.Factory> userFragmentSubcomponentFactoryProvider;
+  private Provider<FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent.Factory> userNameFragmentSubcomponentFactoryProvider;
 
   private Provider<FragmentBindingModule_GameFragment1.GameFragment1Subcomponent.Factory> gameFragment1SubcomponentFactoryProvider;
 
@@ -93,7 +91,7 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Map<Class<?>, Provider<AndroidInjector.Factory<?>>> mapOfClassOfAndProviderOfAndroidInjectorFactoryOf(
       ) {
-    return MapBuilder.<Class<?>, Provider<AndroidInjector.Factory<?>>>newMapBuilder(7).put(MainActivity.class, (Provider) mainActivitySubcomponentFactoryProvider).put(SummaryActivity.class, (Provider) summaryActivitySubcomponentFactoryProvider).put(HistoryActivity.class, (Provider) historyActivitySubcomponentFactoryProvider).put(SplashActivity.class, (Provider) splashActivitySubcomponentFactoryProvider).put(UserFragment.class, (Provider) userFragmentSubcomponentFactoryProvider).put(GameFragment1.class, (Provider) gameFragment1SubcomponentFactoryProvider).put(GameFragment2.class, (Provider) gameFragment2SubcomponentFactoryProvider).build();
+    return MapBuilder.<Class<?>, Provider<AndroidInjector.Factory<?>>>newMapBuilder(7).put(MainActivity.class, (Provider) mainActivitySubcomponentFactoryProvider).put(SummaryActivity.class, (Provider) summaryActivitySubcomponentFactoryProvider).put(HistoryActivity.class, (Provider) historyActivitySubcomponentFactoryProvider).put(SplashActivity.class, (Provider) splashActivitySubcomponentFactoryProvider).put(UserNameFragment.class, (Provider) userNameFragmentSubcomponentFactoryProvider).put(GameFragment1.class, (Provider) gameFragment1SubcomponentFactoryProvider).put(GameFragment2.class, (Provider) gameFragment2SubcomponentFactoryProvider).build();
   }
 
   private DispatchingAndroidInjector<Object> dispatchingAndroidInjectorOfObject() {
@@ -126,10 +124,10 @@ public final class DaggerAppComponent implements AppComponent {
         return new SplashActivitySubcomponentFactory();
       }
     };
-    this.userFragmentSubcomponentFactoryProvider = new Provider<FragmentBindingModule_UserFragment.UserFragmentSubcomponent.Factory>() {
+    this.userNameFragmentSubcomponentFactoryProvider = new Provider<FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent.Factory>() {
       @Override
-      public FragmentBindingModule_UserFragment.UserFragmentSubcomponent.Factory get() {
-        return new UserFragmentSubcomponentFactory();
+      public FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent.Factory get() {
+        return new UserNameFragmentSubcomponentFactory();
       }
     };
     this.gameFragment1SubcomponentFactoryProvider = new Provider<FragmentBindingModule_GameFragment1.GameFragment1Subcomponent.Factory>() {
@@ -282,25 +280,26 @@ public final class DaggerAppComponent implements AppComponent {
     }
   }
 
-  private final class UserFragmentSubcomponentFactory implements FragmentBindingModule_UserFragment.UserFragmentSubcomponent.Factory {
+  private final class UserNameFragmentSubcomponentFactory implements FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent.Factory {
     @Override
-    public FragmentBindingModule_UserFragment.UserFragmentSubcomponent create(UserFragment arg0) {
+    public FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent create(
+        UserNameFragment arg0) {
       Preconditions.checkNotNull(arg0);
-      return new UserFragmentSubcomponentImpl(arg0);
+      return new UserNameFragmentSubcomponentImpl(arg0);
     }
   }
 
-  private final class UserFragmentSubcomponentImpl implements FragmentBindingModule_UserFragment.UserFragmentSubcomponent {
-    private UserFragmentSubcomponentImpl(UserFragment arg0) {
+  private final class UserNameFragmentSubcomponentImpl implements FragmentBindingModule_UserFragment.UserNameFragmentSubcomponent {
+    private UserNameFragmentSubcomponentImpl(UserNameFragment arg0) {
 
     }
 
     @Override
-    public void inject(UserFragment arg0) {
-      injectUserFragment(arg0);
+    public void inject(UserNameFragment arg0) {
+      injectUserNameFragment(arg0);
     }
 
-    private UserFragment injectUserFragment(UserFragment instance) {
+    private UserNameFragment injectUserNameFragment(UserNameFragment instance) {
       DaggerFragment_MembersInjector.injectAndroidInjector(instance, DaggerAppComponent.this.dispatchingAndroidInjectorOfObject());
       BaseFragment_MembersInjector.injectViewModelFactory(instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
       BaseFragment_MembersInjector.injectErrorHandler(instance, DaggerAppComponent.this.providesErrorHandler$app_debugProvider.get());

@@ -3,7 +3,7 @@ package com.example.triviaapp.di
 import com.example.triviaapp.ui.HistoryActivity
 import com.example.triviaapp.ui.SummaryActivity
 import com.example.triviaapp.ui.MainActivity
-import com.example.triviaapp.ui.SplashActivity
+import com.example.triviaapp.ui.splash.SplashActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

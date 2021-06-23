@@ -1,7 +1,7 @@
 package com.example.triviaapp.base
 
 import android.os.Bundle
-import com.example.testlocationapp.di.ViewModelFactory
+import com.example.triviaapp.di.ViewModelFactory
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector

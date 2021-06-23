@@ -1,6 +1,6 @@
 package com.example.triviaapp.di;
 
-import com.example.triviaapp.ui.GameFragment1;
+import com.example.triviaapp.ui.game.GameFragment1;
 import dagger.Binds;
 import dagger.Module;
 import dagger.Subcomponent;

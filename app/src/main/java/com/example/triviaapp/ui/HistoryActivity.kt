@@ -3,12 +3,12 @@ package com.example.triviaapp.ui
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.triviaapp.R
 import com.example.triviaapp.base.DaggerBaseActivity
 import com.example.triviaapp.room.User
 import com.example.triviaapp.ui.items.SummaryItem
+import com.example.triviaapp.ui.viewmodel.SummaryViewModel
 import com.example.triviaapp.utils.Status
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.GroupieViewHolder

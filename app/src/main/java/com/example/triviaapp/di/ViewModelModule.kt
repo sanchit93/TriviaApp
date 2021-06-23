@@ -2,10 +2,8 @@ package com.example.triviaapp.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.core.di.ViewModelKey
-import com.example.testlocationapp.di.ViewModelFactory
-import com.example.triviaapp.ui.MainViewModel
-import com.example.triviaapp.ui.SummaryViewModel
+import com.example.triviaapp.ui.viewmodel.MainViewModel
+import com.example.triviaapp.ui.viewmodel.SummaryViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

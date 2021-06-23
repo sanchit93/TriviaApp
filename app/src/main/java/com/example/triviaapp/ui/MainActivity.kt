@@ -9,12 +9,13 @@ class MainActivity : DaggerBaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if (supportFragmentManager.findFragmentByTag(UserFragment.TAG) == null) {
+        //Add username fragment//
+        if (supportFragmentManager.findFragmentByTag(UserNameFragment.TAG) == null) {
             supportFragmentManager.beginTransaction()
                 .add(
                     R.id.flContainer,
-                    UserFragment.newInstance(),
-                    UserFragment.TAG
+                    UserNameFragment.newInstance(),
+                    UserNameFragment.TAG
                 )
                 .commit()
         }

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ui.GameFragment2">
+    tools:context=".ui.game.GameFragment2">
 
     <TextView
         android:id="@+id/tvQuest2"

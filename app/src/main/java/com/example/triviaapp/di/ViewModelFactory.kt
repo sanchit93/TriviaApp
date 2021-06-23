@@ -1,4 +1,4 @@
-package com.example.testlocationapp.di
+package com.example.triviaapp.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
